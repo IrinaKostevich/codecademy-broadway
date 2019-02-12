@@ -47,7 +47,7 @@ footer {
     list-style-type: none;
 }
 
-.menu-item {
+footer p a, .menu-list li a {
     font-size: 18px;
     line-height: 1.8em;
     color: white;
