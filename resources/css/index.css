@@ -3,7 +3,9 @@ html {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
     font-weight: bold;
 }
 
@@ -19,7 +21,8 @@ h3 {
     font-size: 23px;
 }
 
-p, address {
+p, 
+address {
     font-size: 14px;
 }
 
@@ -47,8 +50,16 @@ footer {
     list-style-type: none;
 }
 
-footer p a, .menu-list li a {
+.menu-list li a {
+    display: inline;
     font-size: 18px;
     line-height: 1.8em;
     color: white;
+}
+
+footer nav, 
+footer nav ul, 
+footer nav ul li {
+    display: inline;
+    padding: 0;
 }
